@@ -1,0 +1,8 @@
+.App {
+    background-color: #7ab190;
+}
+
+.error {
+    border: red 2px solid;
+    color: red;
+}

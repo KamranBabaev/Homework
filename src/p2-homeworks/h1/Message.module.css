@@ -1,0 +1,44 @@
+.message {
+    display: flex;
+    align-items: flex-end;
+    font-size: 20px;
+    font-weight: 300;
+
+    margin: 10px;
+
+    font-family: "Source Sans Pro";
+}
+
+.avatar {
+    width: 65px;
+    height: 65px;
+    border-radius: 65%;
+}
+
+.chat {
+    padding: 10px;
+    border-radius: 10px 10px 10px 0;
+    background-color: rgba(242, 255, 40, 0.75);
+}
+
+.corner {
+    width: 25px;
+    height: 25px;
+    background: radial-gradient(circle at 0 0, rgba(0,0,0,0) 25px, rgba(242, 255, 40, 0.75) 0);
+}
+
+.text {
+    min-width: 250px;
+    max-width: 400px;
+    word-wrap: break-word;
+}
+
+.name {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.time {
+    opacity: 80%;
+    justify-content: flex-end;
+}
