@@ -13,11 +13,10 @@ function HW1() {
     return (
         <div>
             <hr/>
-            <Message
-                avatar={messageData.avatar}
-                name={messageData.name}
-                message={messageData.message}
-                time={messageData.time}
+            <Message avatar={messageData.avatar}
+                     name={messageData.name}
+                     message={messageData.message}
+                     time={messageData.time}
             />
 
             <hr/>
